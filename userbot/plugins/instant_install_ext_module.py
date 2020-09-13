@@ -24,7 +24,7 @@ import sys
 import asyncio
 import traceback
 import os
-import userbot.system
+import userbot.utils
 
 @command(pattern="^.extdl", outgoing=True)
 async def install(event):
