@@ -9,10 +9,10 @@ import asyncurban
 
 from telethon import events
 from userbot import bot
-from userbot.system import dev_cmd
+from userbot.utlis import admin_cmd
 
 
-@bot.on(dev_cmd("ud (.*)"))
+@borg.on(admin_cmd("ud (.*)"))
 async def _(event):
     if event.fwd_from:
         return
