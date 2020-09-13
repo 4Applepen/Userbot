@@ -44,7 +44,7 @@ async def download(event):
         end = datetime.now()
         ms = (end - start).seconds
         await event.delete()
-        await mone.edit("Scaricato di "{}" in {} secondi.".format(downloaded_file_name, ms))
+        await mone.edit("Scaricato di {} in {} secondi.".format(downloaded_file_name, ms))
         await mone.edit("Committing to Github....")
         await git_commit(downloaded_file_name, mone)
 
