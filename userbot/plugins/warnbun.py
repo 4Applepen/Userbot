@@ -13,10 +13,10 @@ import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
 from userbot import bot
-from userbot.system import dev_cmd
+from userbot.utils import admin_cmd
 
 
-@bot.on(dev_cmd("warn1"))
+@borg.on(admin_cmd("warn1"))
 async def _(event):
     if event.fwd_from:
         return
@@ -33,7 +33,7 @@ async def _(event):
     await event.delete()
 
 
-@bot.on(dev_cmd("warn2"))
+@borg.on(admin_cmd("warn2"))
 async def _(event):
     if event.fwd_from:
         return
@@ -50,7 +50,7 @@ async def _(event):
     await event.delete()
 
 
-@bot.on(dev_cmd("warn3"))
+@borg.on(admin_cmd("warn3"))
 async def _(event):
     if event.fwd_from:
         return
@@ -67,7 +67,7 @@ async def _(event):
     await event.delete()
 
 
-@bot.on(dev_cmd("warn0"))
+@borg.on(admin_cmd("warn0"))
 async def _(event):
     if event.fwd_from:
         return
@@ -84,7 +84,7 @@ async def _(event):
     await event.delete()
 
 
-@bot.on(dev_cmd("ocb"))
+@borg.on(admin_cmd("ocb"))
 async def _(event):
     if event.fwd_from:
         return
@@ -101,7 +101,7 @@ async def _(event):
     await event.delete()
 
 
-@bot.on(dev_cmd("fw"))
+@borg.on(admin_cmd("fw"))
 async def _(event):
     if event.fwd_from:
         return
