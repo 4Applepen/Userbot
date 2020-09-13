@@ -14,7 +14,7 @@ from telethon.utils import pack_bot_file_id
 from userbot.plugins.sql_helper.welcome_sql import get_current_welcome_settings, \
     add_welcome_setting, rm_welcome_setting, update_previous_welcome
 from userbot import bot
-from userbot.system import command
+from userbot.utils import command
 
 
 @bot.on(events.ChatAction())  # pylint:disable=E0602
