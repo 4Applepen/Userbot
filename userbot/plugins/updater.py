@@ -21,7 +21,7 @@ from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 
 from userbot import CMD_HELP, bot
-from userbot.system import register
+from userbot.utils import register
 from var import Var
 
 
