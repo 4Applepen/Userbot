@@ -37,7 +37,7 @@ from telethon.tl.types import (
     InputStickerSetShortName,
     MessageMediaPhoto
 )
-from userbot.system import dev_cmd
+from userbot.utils import register
 from userbot import ALIVE_NAME, bot
 from userbot.uniborgConfig import Config
 
@@ -45,7 +45,7 @@ from userbot.uniborgConfig import Config
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "100101110"
 # ============================================
 
-@bot.on(dev_cmd(pattern="sticker ?(.*)"))
+@register(outgoing=True, pattern="^.sticker")
 async def _(event):
     if event.fwd_from:
         return
@@ -209,7 +209,7 @@ async def _(event):
                      f"di {DEFAULTUSER}\n ")
 
 
-@bot.on(dev_cmd(pattern="packinfo"))
+@register(outgoing=True, pattern="^.packinfo")
 async def _(event):
     if event.fwd_from:
         return
@@ -245,7 +245,7 @@ async def _(event):
                      f"**Emojis Pack:** {' '.join(pack_emojis)}")
 
 
-@bot.on(dev_cmd(pattern="getsticker ?(.*)"))
+@register(outgoing=True, pattern="^.getsticker")
 async def _(event):
     if event.fwd_from:
         return
