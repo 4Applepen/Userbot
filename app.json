@@ -1,6 +1,6 @@
 {
-  "name": "X-tra Telegram",
-  "description": "Userbot created by a SNAPDRAGON and custom fork by ANUBIS\n\n join https://t.me/XtraTgChat for any problems or support",
+  "name": "Userbot ",
+  "description": "Userbot creato da https://t.me/sqdboyuwu",
   "logo": "https://telegra.ph/file/1be6c59f53fef57b5745b.jpg",
   "keywords": [
     "telegram",
@@ -9,88 +9,88 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Dark-Princ3/X-tra-Telegram/",
+  "repository": "https://github.com/4Applepen/Userbot",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
+      "description": "L'impostazione di QUALSIASI COSA abiliterà heroku.",
       "value": "ANYTHING"
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
-      "description": "Where downloaded files will go.",
+      "description": "Dove andranno i file scaricati.",
       "value": "./userbot/DOWNLOADS/",
       "required": false
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "Ottieni questo valore da my.telegram.org!",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "Ottieni questo valore da my.telegram.org!",
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally",
+      "description": "Ottieni questo valore eseguendo python3 telesetup.py localmente",
       "value": ""
     },
     "MAX_FLOOD_IN_P_M_s": {
-      "description": "Maximum number of messages a person can send in pm before getting blocked. Value must be an integer. 3 by default.",
+      "description": "Numero massimo di messaggi che una persona può inviare in pm prima di essere bloccata. Il valore deve essere un numero intero. 3 per impostazione predefinita.",
       "value": "3",
       "required": false
     },
     "OCR_SPACE_API_KEY": {
-      "description": "Required for OCR functionality. Get from https://ocr.space/ocrapi",
+      "description": "Richiesto per la funzionalità OCR. Ottenere da https://ocr.space/ocrapi",
       "value": "",
       "required": false
     },
     "REM_BG_API_KEY": {
-      "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
+      "description": "Necessario per la rimozione della funzionalità di sfondo dell'immagine. Ottenere da https://www.remove.bg/",
       "value": "",
       "required": false
     },
     "GITHUB_ACCESS_TOKEN": {
-      "description": "Your Github Access Token for gitcommit plugin.Google 'Github access token' to find.",
+      "description": "Il tuo token di accesso Github per il plug-in gitcommit. "Token di accesso Github" di Google da trovare.",
       "value": "",
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: Total-Noob-69/X-Tra-Telegram, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Il nome del tuo repo Esempio: sqdboyuwu/Userbot, ma GITHUB_ACCESS_TOKEN deve essere prima impostato.",
       "value": "",
       "required": false
     },
     "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
+      "description": "Necessario per Lydia AI. Segui https://telegra.ph/Lydia-09-05 per ottenere la tua API.",
       "value": "",
       "required": false
     },
     "TG_BOT_TOKEN_BF_HER": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
+      "description": "Necessario per la creazione di pulsanti in linea. Crea un bot su http://telegram.dog/BotFather e ottieni il token del tuo bot. Prendilo.",
       "value": "",
       "required": false
     },
     "CHROME_BIN": {
-      "description": "For Carbon.py. Leave as it is. ",
+      "description": "Per Carbon.py. Lascia così com'è. ",
       "value": "/app/.apt/usr/bin/google-chrome",
       "required": false
     },
     "CHROME_DRIVER": {
-      "description": "For Carbon.py. Leave as it is. ",
+      "description": "Per Carbon.py. Lascia così com'è. ",
       "value": "/app/.chromedriver/bin/chromedriver",
       "required": false
     },
     "TG_BOT_USER_NAME_BF_HER": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
+      "description": "Necessario per la creazione di pulsanti in linea. Crea un bot su http://telegram.dog/BotFather e ottieni il nome utente del tuo bot",
       "value": "",
       "required": false
     },
     "DOWNLOAD_PFP_URL_CLOCK": {
-      "description": "Needed for autopic module. A url that is a preview link of your Profile Pic",
+      "description": "Necessario per il modulo autopic. Un URL che è un link di anteprima della tua immagine del profilo",
       "value": "",
       "required": false
     },
     "TZ": {
-      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+      "description": "Richiesto per il tempo corretto per l'autopic / get time. Conosci il tuo fuso orario da http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Kolkata",
       "required": false
     }
