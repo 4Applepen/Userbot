@@ -38,7 +38,7 @@ class Var(object):
         try:
             PRIVATE_GROUP_ID = int(PRIVATE_GROUP_ID)
         except ValueError:
-            raise ValueError("Invalid Private Group ID. Make sure your ID is starts with -100 and make sure that it is only numbers.")
+            raise ValueError("ID gruppo privato non valido. Assicurati che il tuo ID inizi con -100 e assicurati che siano solo numeri.")
 
 class Development(Var):
     LOGGER = True
