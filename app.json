@@ -10,8 +10,8 @@
     "productivity"
   ],
   "repository": "https://github.com/4Applepen/Userbot",
-  "website": "#TODO",
-  "success_url": "#TODO",
+  "website": "https://t.me/sqdboyuwu",
+  "success_url": "https://t.me/sqdboyuwu",
   "env": {
     "ENV": {
       "description": "L'impostazione di QUALSIASI COSA abiliterà heroku.",
@@ -50,7 +50,7 @@
       "required": false
     },
     "GITHUB_ACCESS_TOKEN": {
-      "description": "Il tuo token di accesso Github per il plug-in gitcommit. "Token di accesso Github" di Google da trovare.",
+      "description": "Il tuo token di accesso Github per il plug-in gitcommit. Token di accesso Github di Google da trovare.",
       "value": "",
       "required": false
     },
