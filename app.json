@@ -10,8 +10,8 @@
     "productivity"
   ],
   "repository": "https://github.com/4Applepen/Userbot/",
-  "website": "https://t.me/sqdboyuwu",
-  "success_url": "https://t.me/sqdboyuwu",
+  "website": "#TODO",
+  "success_url": "#TODO",
   "env": {
     "ENV": {
       "description": "L'impostazione di QUALSIASI COSA abiliterà heroku.",
