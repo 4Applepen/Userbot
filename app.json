@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/4Applepen/Userbot",
+  "repository": "https://github.com/4Applepen/Userbot/",
   "website": "https://t.me/sqdboyuwu",
   "success_url": "https://t.me/sqdboyuwu",
   "env": {
@@ -98,7 +98,7 @@
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
-      "version": "9.6"
+      "version": "12"
     }
   }],
   "buildpacks": [{
